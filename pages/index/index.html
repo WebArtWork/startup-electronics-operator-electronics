@@ -1,0 +1,175 @@
+<section class="hero">
+	<video autoplay muted loop class="hero__bgvideo">
+		<source src="/template/img/videos/forheader.mp4" type="video/mp4" />
+	</video>
+
+	<div class="hero__container">
+		<div class="hero__main">
+			<h1 class="hero__title">
+				{{{translate("Template.Discover the future of gadgets – shop now and stay ahead")}}}
+			</h1>
+		</div>
+
+		<a href="https://instagram.com/wawify">
+			<div class="hero__img">
+			</div>
+		</a>
+	</div>
+</section>
+
+<section class="features">
+	<div class="features__container">
+		<div class="features__item features-item">
+			<div class="features-item__icon">
+				<img src="/template/img/icons/feautures/up.svg" alt="Templates" />
+			</div>
+			<div class="features-item__text">
+				<h3 class="features-item__subtitle">{{{translate("Template.Unbeatable Selection")}}}</h3>
+				<p class="features-item__desc">
+					{{{translate("Template.Find an extensive range of the latest gadgets, ensuring you never miss out on the newest tech trends")}}}
+				</p>
+			</div>
+		</div>
+		<div class="features__item features-item">
+			<div class="features-item__icon">
+				<img src="/template/img/icons/feautures/dollar.svg" alt="Buying" />
+			</div>
+			<div class="features-item__text">
+				<h3 class="features-item__subtitle">{{{translate("Template.Competitive Prices")}}}</h3>
+				<p class="features-item__desc">
+					{{{translate("Template.Enjoy competitive pricing that doesn't compromise on quality, making us the smart choice for your tech needs")}}}
+				</p>
+			</div>
+		</div>
+
+		<div class="features__item features-item">
+			<div class="features-item__icon">
+				<img src="/template/img/icons/feautures/community.svg" alt="Your designs" />
+			</div>
+			<div class="features-item__text">
+				<h3 class="features-item__subtitle">{{{translate("Template.Community and Support")}}}</h3>
+				<p class="features-item__desc">
+					{{{translate("Template.Join a community of tech enthusiasts who share their experiences, tips, and insights, making your gadget journey even more rewarding")}}}
+				</p>
+			</div>
+		</div>
+
+		<div class="features__item features-item">
+			<div class="features-item__icon">
+				<img src="/template/img/icons/feautures/safety.svg" alt="Safety" />
+			</div>
+			<div class="features-item__text">
+				<h3 class="features-item__subtitle">{{{translate("Template.Secure Shopping")}}}</h3>
+				<p class="features-item__desc">
+					{{{translate("Template.Your privacy and security are our top priorities. Shop with confidence, knowing your information is safe")}}}
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="themes">
+	<div class="themes__container">
+		<div class="themes__header">
+			<h2 class="themes__title title">{{{translate("Template.Current offers")}}}</h2>
+			<a href="/themes" class="themes__find-more">{{{translate("Template.View all")}}}</a>
+		</div>
+		<p class="themes__text">
+			{{{translate("Template.Discover savings that enhance your shopping experience – check out our latest offers!")}}}"
+		</p>
+
+		<div class="themes__slider themes-slider swiper">
+			<div class="themes-slider__wrapper swiper-wrapper">
+				{% for theme in themes %}
+				<div class="themes-slider__slide themes-slide swiper-slide">
+					<a href="/theme/{{{theme.id}}}">
+						<img src="{{{theme.thumb}}}" alt="{{{theme.name}}}" />
+						<span class="themes-slide__subtitle">
+							{{{theme.name}}}
+						</span>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+	</div>
+</section>
+
+<section class="products">
+	<div class="products__container">
+		<div class="products__header">
+			<h2 class="products__title title">{{{translate("Template.Catalog")}}}</h2>
+			<a href="https://wawify.com/products" class="products__find-more">{{{translate("Template.View all")}}}</a>
+		</div>
+		<p class="products__text">
+			{{{translate("Template.Welcome to our comprehensive catalog, meticulously curated to showcase a world of technological marvels designed to elevate your lifestyle. Explore our diverse range of cutting-edge electronics,handpicked to deliver innovation, performance, and style, all in one place")}}}
+		</p>
+
+		<div class="products__slider products-slider swiper">
+			<div class="themes-slider__wrapper swiper-wrapper">
+				{% for product in products %}
+				<div class="products-slider__slide products-slide swiper-slide">
+					<a href="/product/{{{product.id}}}">
+						<img src="{{{product.thumb}}}" alt="{{{product.name}}}" />
+						<span class="products-slide__subtitle">
+							{{{product.name}}}
+						</span>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="articles">
+	<div class="articles__container">
+		<h2 class="articles__title title">{{{translate("Template.Blog")}}}</h2>
+		<div class="articles__article article-card">
+			<div class="article-card__img">
+				<img src="{{{article.thumb}}}" alt="{{{article.name}}}" />
+			</div>
+			<div class="article-card__text">
+				<span class="article-card__title">{{{article.name}}}</span>
+				<p class="article-card__desc">{{{article.description}}}</p>
+			</div>
+			<a href="/article" class="article-card__link">{{{translate("Template.Read more")}}}</a>
+		</div>
+
+		<h3 class="articles__subtitle">{{{translate("Template.Recommended articles")}}}</h3>
+		<div class="articles__slider articles-slider swiper">
+			<div class="articles-slider__wrapper swiper-wrapper">
+				
+				{% for article in articles %}
+				<a href="/article/{{{article.id}}}" class="articles-slider__slide articles-slide swiper-slide">
+					<div class="articles-slide__img">
+						<img src="{{{article.thumb}}}" alt="{{{article.name}}}" />
+					</div>
+					<span class="articles-slide__title">{{{article.name}}}</span>
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+
+		<a href="https://wawify.com/articles" class="articles__link">
+			View all articles
+		</a>
+	</div>
+</section>
+
+<section class="cta">		
+	<video autoplay muted loop class="cta__bgvideo">
+		<source src="/template/img/videos/forfooter.mp4" type="video/mp4" />
+	</video>
+	<div class="cta__container">
+		
+		<h2 class="cta__title">
+			{{{translate("Template.Discover your next  <br /> must-have gadget")}}}
+		</h2>
+
+		<p class="cta__text">
+			{{{translate("Template.Join the revolution of tech enthusiasts today – your future, powered by us")}}}
+		</p>
+
+		<a href="/manage/profile" class="cta__link">{{{translate("Template.Shop now")}}}</a>
+	</div>
+</section>

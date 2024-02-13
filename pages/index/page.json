@@ -1,0 +1,102 @@
+{
+	"title": "Page Title",
+	"products": [
+		{
+			"name": "Name1",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name2",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		}
+	],
+	"designs": [
+		{
+			"name": "Name",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		},
+
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png"
+		}
+	],
+	"article": {
+		"name": "Name1",
+		"thumb": "https://neryxomka.com/template/img/welcome.png",
+		"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium impedit tenetur porro qui veniam et repudiandae. Vero in ipsa dicta harum iusto!"
+	},
+	"articles": [
+		{
+			"name": "Name1",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium impedit tenetur porro qui veniam et repudiandae. Vero in ipsa dicta harum iusto!"
+
+		},
+		{
+			"name": "Name2",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+        	"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium impedit tenetur porro qui veniam et repudiandae. Vero in ipsa dicta harum iusto!"
+
+		},
+		{
+			"name": "Name3",
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+        	"description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium impedit tenetur porro qui veniam et repudiandae. Vero in ipsa dicta harum iusto!"
+
+		}
+	],
+	"themes": [
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+<section class="designs-hero">
+    <div class="designs-hero__container">
+        <div class="designs-hero__img"></div>
+    </div>
+</section>
+
+<section class="designs">
+    <div class="designs__container">
+        <h2 class="designs__title title">Designs</h2>
+        <p class="designs__text">
+            Find people who will help you bring your ideas to life regarding
+            clothing, footwear, and accessories designs
+        </p>
+
+        <div class="designs__wrapper">
+            {% for design in designs %}
+
+            <div class="designs__card designs-card">
+                <div class="designs-card__img">
+                    <a href="/design">
+                        <img src="{{{design.thumb}}}" alt="{{{design.name}}}" class="designs-card__img" /></a>
+                </div>
+
+                <div class="designs-card__text">
+                    <a href="/design/{{{design.id}}}" class="designs-card__name">{{{design.name}}}</a>
+                    <span class="designs-card__author">Designed by <a href="#">{{{design.author}}}</a></span>
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="cta-partner">
+    <div class="cta-partner__container">
+        <span class="cta-partner__title">Become a Wawify partner</span>
+
+        <form action="#" class="cta-partner__form">
+            <input type="email" class="cta-partner__input" id="footer-input" placeholder="Enter Your email" required />
+            <button type="submit" class="cta-partner__button" id="footer-button">
+                Send
+            </button>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,30 @@
+{
+	"name": "themes",
+	"themes": [
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		},
+		{
+			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"name": "Theme name",
+			"description": "Theme Description"
+		}
+	]
+}
